@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: rgb(36, 105, 194);
+  color: #fff;
+  line-height: 1.6;
+}
+/* Header rész formázása */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("images/main_page.jpg") no-repeat center center/cover;
+  height: 50vh;
+}
+nav {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li a {
+  padding: 0 24px;
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid rgb(0, 165, 145);
+  padding-bottom: 6px;
+}
+/* Rólam (about) rész formázása */
+section#about {
+  margin-top: 70px;
+}
+.img-container img {
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 50%;
+  margin-right: 20px;
+}
+.img-container {
+  flex: 1;
+}
+.description {
+  flex: 2;
+}
+.description h2 {
+  padding: 16px;
+}
+.description p {
+  margin: 12px 0;
+}
+.description p:last-of-type {
+  margin-bottom: 24px;
+}
+
+.description h4 {
+  display: inline-block;
+  padding: 8px 0 8px 16px;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+/* Kedvencem rész formázása */
+.kedvencem {
+  background-color: rgb(0, 165, 145);
+  padding: 20px;
+  padding-top: 70px;
+}
+section#kedvencem h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  height: auto;
+  border: 10px solid white;
+  border-radius: 8px;
+}
+.flex-container {
+  display: flex;
+}
+.column {
+  flex: 1;
+}
+.kedvenc-bal {
+  padding: 20px;
+  text-align: right;
+}
+.kedvenc-bal h3,
+.kedvenc-jobb h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.kedvenc-bal ul {
+  list-style-type: none;
+}
+.kedvenc-jobb {
+  padding: 20px;
+  border-left: 2px solid white;
+}
+.kedvenc-jobb ol {
+  margin-left: 20px;
+}
+
+/*Kapcsolat rész formázása */
+section#kapcsolat h2 {
+  padding: 24px;
+}
+section#kapcsolat {
+  background-color: rgb(153, 190, 238);
+}
+.callback-container {
+width: 80%;
+margin: 0 auto;
+}
+.form-control {
+  margin-bottom: 12px;
+}
+.form-control label {
+  display: block;
+  margin-bottom: 5 px;
+}
+.form-control input {
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+}
+.callback-container button {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(0, 165,145);
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 18px;
+}
+/* Footer rész formázása */
+footer {
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
